@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "405430620200",
+    "project_id": "go-to-manga",
+    "storage_bucket": "go-to-manga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405430620200:android:d9810a7b34ef8edb99e51d",
+        "android_client_info": {
+          "package_name": "com.FireGoal.GoToManga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405430620200-j9ngjs4b9kh5g6m0tmrtdt3n35mrth56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1DDkKeIdVwRmm3V2JTDNeZPkHjM_qwuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405430620200-j9ngjs4b9kh5g6m0tmrtdt3n35mrth56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

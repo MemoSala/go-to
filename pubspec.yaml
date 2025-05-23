@@ -1,0 +1,68 @@
+name: go_to
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.6
+  flutter_staggered_grid_view: ^0.4.0-nullsafety.3
+  webview_flutter: ^4.0.7
+  image_picker: ^0.7.2 # تقوم بالبحث عن صوره
+  flutter_speed_dial: ^6.2.0 #floatingActionButton
+#--------------------------------------------------------------------------------------------------------------
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.2
+  cloud_firestore: ^4.5.2
+#--------------------------------------------------------------------------------------------------------------
+  font_awesome_flutter: ^10.4.0 # icon
+  url_launcher: ^6.1.11
+  intl: ^0.18.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+ 
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Marhey
+      fonts:
+        - asset: assets\fonts\Marhey.ttf
+    - family: EN
+      fonts:
+        - asset: assets\fonts\COMIC.TTF
+        - asset: assets\fonts\COMICZ.TTF
+        - asset: assets\fonts\COMICI.TTF
+        - asset: assets\fonts\COMICBD.TTF
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
