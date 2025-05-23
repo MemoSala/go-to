@@ -1,3 +1,3 @@
-<img str="photo/001.jpg">
-<img str="photo/002.jpg">
-<img str="photo/003.jpg">
+<img src="photo/001.jpg">
+<img src="photo/002.jpg">
+<img src="photo/003.jpg">
